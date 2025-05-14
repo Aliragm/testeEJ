@@ -57,6 +57,65 @@
     background: url(logo.png) lightgray 50% / cover no-repeat;
 }
 
+
+#section-1{
+    margin-top: 6.80rem;
+    background-color: aqua;
+    
+}
+
+#left-section-1{
+    margin-left: 7.37rem;
+}
+
+#main-photo{
+    border-radius: 0.75rem;
+    margin-left: 9.07rem;
+}
+
+#on-market{
+    color: #8457DF;
+    font-family: Roboto;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 11.30rem;
+    width: 17.8125rem;
+    height: 3.625rem;
+    flex-shrink: 0;
+}
+
+#modernize{
+    color: #FFF;
+    font-family: "Rubik Mono One";
+    font-size: 5.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+}
+
+#condo{
+    color: #FFF;
+    font-family: "Rubik Mono One";
+    font-size: 3.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#separator{
+    width: 14.93763rem;
+    height: 0.25rem;    
+    background: #FFF;
+}
+
+#rigth-section-1{
+    margin-top: 3.94rem;
+    margin-right: 7.37rem;
+}
+
 @media (max-width: 1200px) {
     #navbar {
         padding-left: 3rem;
