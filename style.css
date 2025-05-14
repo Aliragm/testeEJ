@@ -4,7 +4,6 @@
 }
 
 #navbar {
-    background-color: black;
     height: 7.1875rem; /* 115px */
     flex-shrink: 0;
     padding-top: 1.5625rem; /* 25px */
@@ -60,8 +59,6 @@
 
 #section-1{
     margin-top: 6.80rem;
-
-    
 }
 
 #left-section-1{
@@ -71,6 +68,9 @@
 #main-photo{
     border-radius: 0.75rem;
     margin-left: 9.07rem;
+    margin-top: 7.43rem;
+    z-index: 1;
+    position: absolute;
 }
 
 #on-market{
@@ -99,10 +99,11 @@
 #condo{
     color: #FFF;
     font-family: "Rubik Mono One";
-    font-size: 3.25rem;
+    font-size: 2.70rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    white-space: nowrap;
 }
 
 #separator{
@@ -114,6 +115,7 @@
 #rigth-section-1{
     margin-top: 3.94rem;
     margin-right: 7.37rem;
+    padding-right: 0;
 }
 
 @media (max-width: 1200px) {
