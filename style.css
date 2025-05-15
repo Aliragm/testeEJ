@@ -64,6 +64,11 @@
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.00) 100%), #9663FE;
 }
 
+#button-franqueado:hover{
+    background-color: #6214ff;
+    transform: scale(1.1);
+}
+
 #cover {
     position: relative;
 }
@@ -140,6 +145,12 @@
 #arrow{
     margin-top: 17rem;
     margin-bottom: 1rem;
+}
+
+@media (min-width: 1600px) {
+    #button-franqueado{
+        margin-left: 10rem;
+    }
 }
 
 @media (max-width: 1420px) {
