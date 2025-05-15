@@ -12,21 +12,40 @@
     padding-right: 7.375rem; /* 118px */
 }
 
-#navbar-text {
+#navbar-options {
+    left: 25.125rem;
+    top: 2.4375rem;
+    gap: 4.625rem;
+    display: inline-flex;
+    align-items: center;
+}
+
+.navbar-item {
     color: #FFF;
     font-family: Roboto;
     font-size: 1.5rem;
     font-weight: 500;
     white-space: nowrap;
     display: inline-flex;
+    padding-bottom: 0.25rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease;
 }
 
-#navbar-options {
-    left: 25.125rem; /* 402px */
-    top: 2.4375rem; /* 39px */
-    gap: 4.625rem; /* 74px */
-    display: inline-flex;
-    align-items: center;
+.navbar-item.active::after {
+    content: '';
+    position: absolute;
+    bottom: -0.25rem;
+    left: 0;
+    right: 0;
+    height: 0.25rem;
+    background: #9663FE;
+    border-radius: 0.625rem;
+}
+
+.navbar-item:hover {
+    opacity: 0.8;
 }
 
 #button-franqueado {
@@ -118,7 +137,12 @@
     padding-right: 0;
 }
 
-@media (max-width: 1200px) {
+#arrow{
+    margin-top: 17rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 1420px) {
     #navbar {
         padding-left: 3rem;
         padding-right: 3rem;
@@ -129,6 +153,21 @@
         left: 15rem;
         gap: 2rem;
     }
+
+    #left-section-1{
+        margin-left: 2.37rem;
+    }
+
+    #purple-pill{
+        transform: scale(0.9);
+    }
+
+    #main-photo{
+        transform: scale(0.9);
+    }
+
+    
+
 }
 
 @media (max-width: 992px) {
