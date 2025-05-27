@@ -283,6 +283,66 @@ html, body {
     margin-left: 5.59rem;
 }
 
+#footer-row {
+    padding-bottom: 35rem;
+    
+}
+
+#footer{
+    margin-top: 45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#title-footer{
+    color: #8457DF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    z-index: 1;
+}
+
+#separator-footer{
+    width: 19.125rem;
+}
+
+#footer-text{
+    width: 27.25rem;
+    height: 7rem;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: black;
+    margin-top: 15rem;
+    position: absolute;
+    z-index: 1;
+}
+
+#social-media{
+    position: absolute;
+    margin-top: 35rem;
+}
+
+#floaters{
+    width: 49.375rem;
+    height: 29.125rem;
+    flex-shrink: 0;
+    margin-top: 20rem;
+    position: absolute;
+    z-index: 0;
+}
+
 @media (min-width: 1600px) {
     #button-franqueado{
         margin-left: 10rem;
