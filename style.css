@@ -3,6 +3,10 @@
     color: white;
 }
 
+* {
+    outline: 1px solid red;
+}
+
 html, body {
     overflow-x: hidden;
     width: 100%;
@@ -158,10 +162,74 @@ html, body {
     margin-bottom: 1rem;
 }
 
+#card-machine{
+    width: 16.5rem;
+    height: 16.5rem;
+    flex-shrink: 0;
+    border-radius: 1.125rem;
+    position: absolute;
+    z-index: 1;
+    margin-left: 11.17rem;
+    margin-top: 11.22rem;
+}
+
+#left-section-2{
+    margin-left: 11.38rem;
+}
+
+#title-section-2{
+    width: 19rem;
+    height: 2.9375rem;
+    flex-shrink: 0;
+    color: #8457DF;
+    font-family: Roboto;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 7.1rem;
+}
+
+#separator-section-2{
+    width: 20.75006rem;
+    height: 0.25rem; 
+    background: #FFF;
+}
+
+#about-text{
+    width: 36.25rem;
+    height: 18.75rem;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.highlight{
+    color: #CCFE1C;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 @media (min-width: 1600px) {
     #button-franqueado{
         margin-left: 10rem;
     }
+
+    #card-machine{
+        transform: scale(1.1);
+    }
+    
+    #triangles-section-2{
+        transform: scale(1.1);
+    }
+
 }
 
 @media (max-width: 1420px) {
@@ -188,7 +256,17 @@ html, body {
         transform: scale(0.9);
     }
 
+    #card-machine{
+        transform: scale(0.9);
+    }
     
+    #triangles-section-2{
+        transform: scale(0.9);
+    }
+
+    #left-section-2{
+        margin-left: 5rem;
+    }
 
 }
 
