@@ -3,6 +3,12 @@
     color: white;
 }
 
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+}
+
 #navbar {
     height: 7.1875rem; /* 115px */
     flex-shrink: 0;
