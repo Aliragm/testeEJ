@@ -141,10 +141,13 @@ html, body {
     white-space: nowrap;
 }
 
-#separator{
-    width: 14.93763rem;
+.separator{
     height: 0.25rem;    
     background: #FFF;
+}
+
+#separator{
+    width: 14.93763rem;
 }
 
 #rigth-section-1{
@@ -188,8 +191,6 @@ html, body {
 
 #separator-section-2{
     width: 20.75006rem;
-    height: 0.25rem; 
-    background: #FFF;
 }
 
 #about-text{
@@ -213,6 +214,75 @@ html, body {
     line-height: normal;
 }
 
+#section-3{
+    margin-top: 10rem;
+}
+
+#title-section-section-3{
+    width: 10.3125rem;
+    height: 2.9375rem;
+    flex-shrink: 0;
+    color: #8457DF;
+    font-family: Roboto;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 11.38rem;
+}
+
+#separator-section-3{
+    width: 13.62506rem;
+}
+
+#double-squares{
+    width: 31.875rem;
+    height: 31.9995rem;
+    flex-shrink: 0;
+    position: absolute;
+}
+
+#left-right-3{
+    padding-top:3.05rem;
+}
+
+#left-section-3{
+    margin-left: 11.38rem;
+}
+
+.square-title{
+    position: absolute;
+    z-index: 1;
+    width: 22.25rem;
+    height: 2rem;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 4.37rem;
+    margin-left: 5.59rem;
+}
+
+.square-text{
+    position: absolute;
+    z-index: 1;
+    width: 22.25rem;
+    height: 19.8125rem;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 8.37rem;
+    margin-left: 5.59rem;
+}
+
 @media (min-width: 1600px) {
     #button-franqueado{
         margin-left: 10rem;
@@ -226,6 +296,21 @@ html, body {
         transform: scale(1.1);
     }
 
+    #double-squares{
+        transform: scale(1.1);
+    }
+
+    .square-title{
+        transform: scale(1.1);
+    }
+    
+    .square-text{
+        transform: scale(1.1);
+    }
+    
+    #title-section-section-3{
+        transform: scale(1.1);
+    }
 }
 
 @media (max-width: 1420px) {
@@ -264,6 +349,13 @@ html, body {
         margin-left: 5rem;
     }
 
+    #left-section-3{
+        margin-left: 5rem;
+    }
+
+    #title-section-section-3{
+        margin-left: 5rem;
+    }
 }
 
 @media (max-width: 992px) {
