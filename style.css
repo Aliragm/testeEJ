@@ -395,9 +395,13 @@ html, body {
     padding-right: 9rem;
 }
 
+#test{
+    margin-left: 66.62rem;
+}
+
 #separator-section-4{
     width: 12.06394rem;
-    margin-left: 66.62rem;
+    float: right;
 }
 
 #rectangle-1-4{
