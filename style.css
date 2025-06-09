@@ -538,6 +538,43 @@ li{
     }
 }
 
+@media (max-width: 1300px) {
+    #purple-pill{
+        transform: scale(0.8);
+    }
+
+    #main-photo{
+        transform: scale(0.8);
+    }
+
+    #card-machine{
+        transform: scale(0.8);
+    }
+    
+    #triangles-section-2{
+        transform: scale(0.8);
+    }
+
+    #central-text{
+        transform: scale(0.8);
+        padding-left: 35rem;
+    }
+
+    #rectangle-1-4{
+        transform: scale(0.9);
+        margin-left: 3rem;
+    }
+
+    #rectangle-2-4{
+        transform: scale(0.9);
+        margin-left: 20rem;
+    }
+
+    #test{
+        display: none;
+    }
+}
+
 @media (max-width: 992px) {
     #navbar {
         padding: 1rem;
