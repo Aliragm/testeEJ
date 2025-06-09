@@ -483,6 +483,10 @@ li{
     #title-section-section-3{
         transform: scale(1.1);
     }
+
+    #rectangle-2-4{
+        margin-left: 35rem;
+    }
 }
 
 @media (max-width: 1420px) {
@@ -498,6 +502,10 @@ li{
     }
 
     #left-section-1{
+        margin-left: 2.37rem;
+    }
+
+    #rectangle-1-4{
         margin-left: 2.37rem;
     }
 
