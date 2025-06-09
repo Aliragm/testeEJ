@@ -216,13 +216,16 @@ html, body {
 
 #section-3{
     margin-top: 10rem;
+    padding-top: 7.40rem;
+    padding-bottom: 9.19rem;
+    background: linear-gradient(180deg, rgba(64, 40, 114, 0.00) 0%, #6A45B7 49.52%, rgba(64, 40, 114, 0.00) 100%);
 }
 
 #title-section-section-3{
     width: 10.3125rem;
     height: 2.9375rem;
     flex-shrink: 0;
-    color: #8457DF;
+    color: #CCFE1C;
     font-family: Roboto;
     font-size: 2.5rem;
     font-style: normal;
@@ -289,7 +292,7 @@ html, body {
 }
 
 #footer{
-    margin-top: 45rem;
+    margin-top: 60rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -341,6 +344,110 @@ html, body {
     margin-top: 20rem;
     position: absolute;
     z-index: 0;
+}
+
+#photos-section-3{
+    margin-top: 7rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#image-small{
+    width: 19.3125rem;
+    height: 24.9375rem;
+    flex-shrink: 0;
+}
+
+#big-image{
+    width: 24.125rem;
+    height: 31.25rem;
+    flex-shrink: 0;
+}
+
+#text-section-3-parent{
+    display: flex;
+    justify-content: center;
+    margin-top: 3.13rem;
+}
+
+#text-section-3{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 44.3125rem;
+    height: 5.25rem;
+    flex-shrink: 0;
+}
+
+#title-section-section-4{
+    color: #8457DF;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-right: 9rem;
+}
+
+#separator-section-4{
+    width: 12.06394rem;
+    margin-left: 66.62rem;
+}
+
+#rectangle-1-4{
+    position: absolute;
+    z-index: 0;
+    margin-top: 3rem;
+    margin-left: 11.31rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 2rem;
+    width: 52.375rem;
+    height: 23.4375rem;
+    flex-shrink: 0;
+    border-radius: 1.125rem;
+    background: linear-gradient(90deg, rgba(150, 99, 254, 0.70) 0%, rgba(64, 40, 114, 0.50) 100%);
+}
+
+#rectangle-2-4{
+    position: absolute;
+    z-index: 1;
+    margin-top: 23rem;
+    margin-left: 26.31rem;
+    text-align: right;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 2rem;
+    width: 52.375rem;
+    height: 23.4375rem;
+    flex-shrink: 0;
+    border-radius: 1.125rem;
+    background: linear-gradient(90deg, rgba(150, 99, 254, 0.70) 0%, rgba(64, 40, 114, 0.50) 100%);
+}
+
+.title-rectangle{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+li{
+    text-align: left;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.25rem
 }
 
 @media (min-width: 1600px) {
