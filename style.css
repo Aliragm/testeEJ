@@ -575,20 +575,9 @@ li{
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 900px) {
     #navbar {
-        padding: 1rem;
-    }
-    
-    #navbar-options {
-        position: static;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 1.5rem;
-    }
-    
-    #button-franqueado {
-        margin-left: 0;
+        display: none;
     }
 }
 
