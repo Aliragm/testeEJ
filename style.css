@@ -97,17 +97,13 @@ html, body {
     margin-top: 6.80rem;
 }
 
-#left-section-1{
-    margin-left: 7.37rem;
+/*#left-section-1{
+    
 }
 
 #main-photo{
-    border-radius: 0.75rem;
-    margin-left: 9.07rem;
-    margin-top: 7.43rem;
-    z-index: 1;
-    position: absolute;
-}
+    
+}*/
 
 #on-market{
     color: #8457DF;
@@ -151,11 +147,11 @@ html, body {
     width: 14.93763rem;
 }
 
-#rigth-section-1{
+/*#rigth-section-1{
     margin-top: 3.94rem;
     margin-right: 7.37rem;
     padding-right: 0;
-}
+}*/
 
 #arrow{
     margin-top: 17rem;
@@ -453,6 +449,17 @@ li{
     font-style: normal;
     font-weight: 700;
     line-height: 2.25rem
+}
+
+
+#navbar-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+* {
+  border: 1px solid red !important;
 }
 
 @media (min-width: 1600px) {
