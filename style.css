@@ -97,11 +97,13 @@ html, body {
     margin-top: 6.80rem;
 }
 
-/*#left-section-1{
-    
+#left-section-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#main-photo{
+/*#main-photo{
     
 }*/
 
@@ -147,11 +149,16 @@ html, body {
     width: 14.93763rem;
 }
 
-/*#rigth-section-1{
+#rigth-section-1{
+    /*
     margin-top: 3.94rem;
     margin-right: 7.37rem;
     padding-right: 0;
-}*/
+    */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 #arrow{
     margin-top: 17rem;
@@ -458,9 +465,10 @@ li{
     justify-content: center;
 }
 
+/*
 * {
   border: 1px solid red !important;
-}
+}*/
 
 @media (min-width: 1600px) {
     #button-franqueado{
