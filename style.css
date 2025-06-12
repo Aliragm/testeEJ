@@ -158,6 +158,8 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 10rem;
+    margin-right: 3rem;
 }
 
 #arrow{
@@ -177,7 +179,10 @@ html, body {
 }
 
 #left-section-2{
-    margin-left: 11.38rem;
+    
+    display: flex;
+    flex-direction: column; /* Empilha os elementos */
+    align-items: center; /* Alinha à esquerda */
 }
 
 #title-section-2{
@@ -465,8 +470,8 @@ li{
     justify-content: center;
 }
 
-/*
-* {
+
+/** {
   border: 1px solid red !important;
 }*/
 
