@@ -413,54 +413,57 @@ html, body {
     float: right;
 }
 
-#rectangle-1-4{
-    position: absolute;
-    z-index: 0;
-    margin-top: 3rem;
-    margin-left: 11.31rem;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-    padding-top: 2rem;
-    width: 52.375rem;
-    height: 23.4375rem;
-    flex-shrink: 0;
-    border-radius: 1.125rem;
-    background: linear-gradient(90deg, rgba(150, 99, 254, 0.70) 0%, rgba(64, 40, 114, 0.50) 100%);
+#section-4 .rectangles {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  position: relative; /* permite z-index interno */
+  gap: 0;             /* sem espaçamento entre colunas */
 }
 
-#rectangle-2-4{
-    position: absolute;
-    z-index: 1;
-    margin-top: 23rem;
-    margin-left: 26.31rem;
-    text-align: right;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-    padding-top: 2rem;
-    width: 52.375rem;
-    height: 23.4375rem;
-    flex-shrink: 0;
-    border-radius: 1.125rem;
-    background: linear-gradient(90deg, rgba(150, 99, 254, 0.70) 0%, rgba(64, 40, 114, 0.50) 100%);
+/* 2) Retângulo de “Implementação” (baixo) */
+#rectangle-1-4 {
+  grid-column: 2 / span 8;   /* ajusta largura e posição horizontal */
+  grid-row:    1;            /* mesma linha do grid que o outro */
+  z-index:     1;            /* fica atrás do segundo */
+  
+  /* seus estilos existentes: */
+  padding:     2rem 2.5rem;
+  border-radius: 1.125rem;
+  background: linear-gradient(90deg, rgba(150,99,254,0.70) 0%, rgba(64,40,114,0.50) 100%);
+  /* etc… */
 }
 
-.title-rectangle{
+/* 3) Retângulo de “Vantagens” (cima) */
+#rectangle-2-4 {
+  grid-column: 5 / span 8;   /* posicione um pouco mais à direita */
+  grid-row:    2;            /* sobrepõe na mesma linha */
+  z-index:     1;            /* sobre o primeiro */
+  
+  text-align: left;         /* se quiser o texto à direita */
+  padding:     2rem 2.5rem;
+  border-radius: 1.125rem;
+  background: linear-gradient(90deg, rgba(150,99,254,0.70) 0%, rgba(64,40,114,0.50) 100%);
+  /* etc… */
+}
+
+/* títulos e listas (seu CSS original) */
+.title-rectangle {
     color: #FFF;
     font-family: Roboto;
     font-size: 2.5rem;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
 
-li{
-    text-align: left;
-    color: #fff;
-    font-family: Roboto;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 2.25rem
+#T-2{
+    text-align: right;
+}
+
+li {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2.25rem;
 }
 
 
@@ -470,6 +473,11 @@ li{
     justify-content: center;
 }
 
+#rigth-section-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /** {
   border: 1px solid red !important;
