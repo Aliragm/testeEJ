@@ -415,6 +415,10 @@ html, body {
     justify-content: center;
 }
 
+#section-4{
+    padding-top: 10rem;
+}
+
 #separator-section-4{
     width: 12.06394rem;
 }

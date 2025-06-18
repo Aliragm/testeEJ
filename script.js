@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
         item.classList.add('active');
   
         document.getElementById(item.dataset.target)
-                .scrollIntoView({ behavior: 'smooth', block: 'end' });
+                .scrollIntoView({ behavior: 'smooth', block: 'start' });
   
         ignoreSpy = true;
         clearTimeout(spyTimeout);
