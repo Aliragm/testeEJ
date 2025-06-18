@@ -405,48 +405,28 @@ html, body {
 }
 
 #test{
-    margin-left: 66.62rem;
+    display: flex;
+    justify-content: right;
+    padding-bottom: 1.5rem;
 }
 
 #separator-section-4{
     width: 12.06394rem;
-    float: right;
 }
 
-#section-4 .rectangles {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  position: relative; /* permite z-index interno */
-  gap: 0;             /* sem espaçamento entre colunas */
-}
-
-/* 2) Retângulo de “Implementação” (baixo) */
 #rectangle-1-4 {
-  grid-column: 2 / span 8;   /* ajusta largura e posição horizontal */
-  grid-row:    1;            /* mesma linha do grid que o outro */
-  z-index:     1;            /* fica atrás do segundo */
-  
-  /* seus estilos existentes: */
-  padding:     2rem 2.5rem;
-  border-radius: 1.125rem;
-  background: linear-gradient(90deg, rgba(150,99,254,0.70) 0%, rgba(64,40,114,0.50) 100%);
-  /* etc… */
+    padding: 2rem;
+    margin-bottom: 3rem;
+    border-radius: 1.125rem;
+    background: linear-gradient(90deg, rgba(150,99,254,0.70) 0%, rgba(64,40,114,0.50) 100%);
 }
 
-/* 3) Retângulo de “Vantagens” (cima) */
 #rectangle-2-4 {
-  grid-column: 5 / span 8;   /* posicione um pouco mais à direita */
-  grid-row:    2;            /* sobrepõe na mesma linha */
-  z-index:     1;            /* sobre o primeiro */
-  
-  text-align: left;         /* se quiser o texto à direita */
-  padding:     2rem 2.5rem;
-  border-radius: 1.125rem;
-  background: linear-gradient(90deg, rgba(150,99,254,0.70) 0%, rgba(64,40,114,0.50) 100%);
-  /* etc… */
+    padding: 2rem;
+    border-radius: 1.125rem;
+    background: linear-gradient(90deg, rgba(150,99,254,0.70) 0%, rgba(64,40,114,0.50) 100%);
 }
 
-/* títulos e listas (seu CSS original) */
 .title-rectangle {
     color: #FFF;
     font-family: Roboto;
@@ -454,9 +434,6 @@ html, body {
     font-weight: 700;
 }
 
-#T-2{
-    text-align: right;
-}
 
 li {
   color: #fff;
@@ -511,10 +488,6 @@ li {
     #title-section-section-3{
         transform: scale(1.1);
     }
-
-    #rectangle-2-4{
-        margin-left: 35rem;
-    }
 }
 
 @media (max-width: 1420px) {
@@ -533,9 +506,6 @@ li {
         margin-left: 2.37rem;
     }
 
-    #rectangle-1-4{
-        margin-left: 2.37rem;
-    }
 
     #purple-pill{
         transform: scale(0.9);
@@ -553,17 +523,6 @@ li {
         transform: scale(0.9);
     }
 
-    #left-section-2{
-        margin-left: 5rem;
-    }
-
-    #left-section-3{
-        margin-left: 5rem;
-    }
-
-    #title-section-section-3{
-        margin-left: 5rem;
-    }
 }
 
 @media (max-width: 1300px) {
@@ -586,16 +545,6 @@ li {
     #central-text{
         transform: scale(0.8);
         padding-left: 35rem;
-    }
-
-    #rectangle-1-4{
-        transform: scale(0.9);
-        margin-left: 3rem;
-    }
-
-    #rectangle-2-4{
-        transform: scale(0.9);
-        margin-left: 20rem;
     }
 
     #test{
