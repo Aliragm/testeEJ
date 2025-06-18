@@ -150,11 +150,6 @@ html, body {
 }
 
 #rigth-section-1{
-    /*
-    margin-top: 3.94rem;
-    margin-right: 7.37rem;
-    padding-right: 0;
-    */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -163,7 +158,7 @@ html, body {
 }
 
 #arrow{
-    margin-top: 17rem;
+    margin-top: 4rem;
     margin-bottom: 1rem;
 }
 
@@ -183,9 +178,13 @@ html, body {
     display: flex;
     flex-direction: column; /* Empilha os elementos */
     align-items: center; /* Alinha à esquerda */
+    justify-content: center;
+    text-align: center;
 }
 
 #title-section-2{
+    display: flex;
+    justify-content: center;
     width: 19rem;
     height: 2.9375rem;
     flex-shrink: 0;
@@ -200,6 +199,7 @@ html, body {
 
 #separator-section-2{
     width: 20.75006rem;
+    margin-bottom: 1.5rem;
 }
 
 #about-text{
@@ -297,11 +297,10 @@ html, body {
 
 #footer-row {
     padding-bottom: 35rem;
-    
 }
 
 #footer{
-    margin-top: 60rem;
+    margin-top: 18rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -404,10 +403,16 @@ html, body {
     padding-right: 9rem;
 }
 
-#test{
+#row-title-section-4{
     display: flex;
     justify-content: right;
     padding-bottom: 1.5rem;
+}
+
+#test{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #separator-section-4{
@@ -415,16 +420,25 @@ html, body {
 }
 
 #rectangle-1-4 {
+    width: 75%;
     padding: 2rem;
     margin-bottom: 3rem;
+    margin-right: 10rem;
     border-radius: 1.125rem;
     background: linear-gradient(90deg, rgba(150,99,254,0.70) 0%, rgba(64,40,114,0.50) 100%);
 }
 
 #rectangle-2-4 {
+    width: 75%;
     padding: 2rem;
+    margin-left: 10rem;
     border-radius: 1.125rem;
     background: linear-gradient(90deg, rgba(150,99,254,0.70) 0%, rgba(64,40,114,0.50) 100%);
+}
+
+#rectangles{
+    display: flex;
+    justify-content: center;
 }
 
 .title-rectangle {
