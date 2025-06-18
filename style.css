@@ -11,12 +11,12 @@ html, body {
 }
 
 #navbar {
-    height: 7.1875rem; /* 115px */
+    height: 6.2rem; 
     flex-shrink: 0;
-    padding-top: 1.5625rem; /* 25px */
-    padding-bottom: 1.5625rem; /* 25px */
-    padding-left: 7.375rem; /* 118px */
-    padding-right: 7.375rem; /* 118px */
+    padding-top: 1.5625rem; 
+    padding-bottom: 1.5625rem; 
+    padding-left: 7.375rem; 
+    padding-right: 7.375rem;
     position: fixed;
     top: 0;
     width: 100%;
