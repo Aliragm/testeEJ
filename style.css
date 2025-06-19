@@ -474,6 +474,10 @@ li {
     align-items: center;
 }
 
+#navbar-mobile{
+        display: none;
+    }
+
 /** {
   border: 1px solid red !important;
 }*/
@@ -572,15 +576,88 @@ li {
     #navbar {
         display: none;
     }
-}
 
-@media (max-width: 768px) {
-    #navbar-text {
-        font-size: 1.2rem;
+    #sec-1{
+        display: none;
     }
-    
-    #logo {
-        width: 8rem;
-        height: 3.5rem;
+
+    #navbar-mobile{
+        display: flex;
+        position: fixed;
+        z-index: 2;
+    }
+
+    .topnav {
+        overflow: hidden;
+        background-color: black;
+        position: relative;
+        width: 100%;
+    }
+
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .topnav #myLinks {
+        display: none;
+    }
+
+    /* Style navigation menu links */
+    .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    /* Style the hamburger menu */
+    .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    /* Style the active link (or home/logo) */
+    .active {
+        background-color: black;
+        color: white;
+    }
+
+    .navbar-item-mobile{
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        border-bottom: 1px solid #9663FE;
+    }
+
+    #franqueado-mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 3.82281rem;
+        background-color: #9663FE;
+        color: #FFF;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    #hamburguer{
+        width: 3rem;
+        height: 2.5rem;
+        transform: rotate(180deg);
+        flex-shrink: 0; 
+    }
+
+    #footer-row{
+        transform: scale(0.5);
     }
 }
