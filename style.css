@@ -478,6 +478,9 @@ li {
         display: none;
     }
 
+#sec-1-mobile{
+        display: none;
+    }
 /** {
   border: 1px solid red !important;
 }*/
@@ -573,6 +576,18 @@ li {
 }
 
 @media (max-width: 900px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body, html {
+        margin: 0;
+        padding: 0;
+    }
+
     #navbar {
         display: none;
     }
@@ -582,9 +597,10 @@ li {
     }
 
     #navbar-mobile{
-        display: flex;
+        display: block;
         position: fixed;
         z-index: 2;
+        padding: 0;
     }
 
     .topnav {
@@ -592,6 +608,7 @@ li {
         background-color: black;
         position: relative;
         width: 100%;
+        border-bottom: 2px solid #9663FE;
     }
 
     /* Hide the links inside the navigation menu (except for logo/home) */
@@ -658,6 +675,53 @@ li {
     }
 
     #footer-row{
-        transform: scale(0.5);
+        transform: scale(0.4);
+    }
+
+    #sec-1-mobile{
+        display: block;
+    }
+
+    #sec-1-mobile-background{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25.17188rem;
+        height: 33.5625rem;
+        flex-shrink: 0;
+        aspect-ratio: 402.75/537.00;
+        background: url(assets/fridge-side.png) lightgray 50% / cover no-repeat;
+        border-bottom: 2px solid #9663FE;
+    }
+
+    #sec-1-mobile-title{
+        display: table-column;
+        text-align: center;
+        justify-content: center;
+        padding-top: 1rem;
+        width: 16.5rem;
+        height: 7.5625rem;
+        flex-shrink: 0;
+        background-color: rgba(150, 99, 254, 0.80);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 35px;
+    }
+
+    #modernize-mobile{
+        color: white;
+        text-align: center;
+        font-family: "Rubik Mono One";
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    #condo-mobile{
+        font-family: "Rubik Mono One";
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
 }
