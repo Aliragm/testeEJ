@@ -724,4 +724,9 @@ li {
         font-weight: 400;
         line-height: normal;
     }
+
+    #about-text{
+        width: 100%;
+        height:50%;
+    }
 }
