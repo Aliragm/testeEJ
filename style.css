@@ -550,30 +550,6 @@ li {
 
 }
 
-@media (max-width: 1300px) {
-    #purple-pill{
-        transform: scale(0.7);
-    }
-
-    #main-photo{
-        transform: scale(0.7);
-    }
-
-    #card-machine{
-        transform: scale(0.8);
-    }
-    
-    #triangles-section-2{
-        transform: scale(0.8);
-    }
-
-    #central-text{
-        transform: scale(0.7);
-        padding-left: 35rem;
-    }
-
-    
-}
 
 @media (max-width: 1024px) {
 
@@ -818,6 +794,8 @@ li {
 
     .title-rectangle{
         text-align: center;
+        width: 100%;
+        
     }
 
     li {
@@ -855,4 +833,9 @@ li {
         margin-bottom: 5rem;
     }
 
+    #big-image{
+        width: 19.3125rem;
+        height: 24.9375rem;
+        flex-shrink: 0;
+    }
 }
