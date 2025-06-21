@@ -796,6 +796,14 @@ li {
         text-align: left;
     }
 
+    #T-1{
+        text-align: center;
+    }
+
+    #T-2{
+        text-align: center;
+    }   
+
     .title-rectangle{
         text-align: center;
         width: 100%;
