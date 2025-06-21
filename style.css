@@ -440,6 +440,10 @@ html, body {
     background: linear-gradient(90deg, rgba(150,99,254,0.70) 0%, rgba(64,40,114,0.50) 100%);
 }
 
+#T-2{
+    text-align: right;
+}
+
 #rectangles{
     display: flex;
     justify-content: center;
