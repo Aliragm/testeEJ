@@ -33,7 +33,23 @@ document.addEventListener('DOMContentLoaded', () => {
     sections.forEach(sec => sec && observer.observe(sec));
     items[0]?.classList.add('active');
   });
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const items     = document.querySelectorAll('.navbar-item-mobile');
   
+    items.forEach(item => {
+      item.addEventListener('click', () => { 
+        document.getElementById(item.dataset.target)
+                .scrollIntoView({ behavior: 'smooth', block: 'start' });
+                ham();
+      });
+    });
+  });
+  
+function menuMobile(){
+  document.getElementById("beg").scrollIntoView({ behavior: 'smooth', block: 'start'});
+}
 
 function ham() {
   var x = document.getElementById("myLinks");
